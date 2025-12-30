@@ -1,56 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
   <title>Wedding – Details Coming Soon</title>
+
   <style>
     body {
-      font-family: Georgia, "Times New Roman", serif;
-      background: #f9f9f7;
-      color: #2b2b2b;
+      margin: 0;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 24px;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #faf8f3;
+      color: #1f1f1f;
+      padding: 28px;
+    }
+
+    .container {
+      max-width: 680px;
+      width: 100%;
       text-align: center;
     }
-    .container {
-      max-width: 520px;
-    }
+
     h1 {
       font-weight: normal;
-      margin-bottom: 12px;
+      font-size: 34px;
+      margin-bottom: 14px;
     }
+
     p {
       line-height: 1.6;
-      margin-bottom: 16px;
+      margin: 14px 0;
+      font-size: 16px;
     }
-    .rsvp {
+
+    .deadline {
+      font-weight: bold;
+    }
+
+    .rsvp-btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 22px;
-      border: 1px solid #2b2b2b;
+      margin-top: 22px;
+      padding: 12px 26px;
+      border: 1px solid #1f1f1f;
       text-decoration: none;
-      color: #2b2b2b;
+      color: #1f1f1f;
       font-size: 15px;
+      letter-spacing: 0.5px;
     }
-    .rsvp:hover {
-      background: #2b2b2b;
-      color: #fff;
+
+    .rsvp-btn:hover {
+      background: #1f1f1f;
+      color: #ffffff;
     }
-    .note {
+
+    .scripture {
+      margin-top: 28px;
       font-size: 13px;
-      opacity: 0.8;
-      margin-top: 24px;
+      opacity: 0.75;
+      font-style: italic;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
+
     <h1>A Wedding in Preparation</h1>
 
     <p>
@@ -60,16 +78,22 @@
 
     <p>
       Please take a moment to RSVP below.<br>
-      <strong>RSVP deadline: TBD</strong>
+      <span class="deadline">RSVP deadline: February 21, 2026</span>
     </p>
 
-    <a class="rsvp" href="TBD_GOOGLE_FORM_LINK" target="_blank">
+    <a
+      class="rsvp-btn"
+      href="https://forms.gle/rZiMPcML5Su3kJGdA"
+      target="_blank"
+      rel="noopener"
+    >
       RSVP
     </a>
 
-    <div class="note">
+    <div class="scripture">
       “Except the Lord build the house, they labour in vain that build it.”
     </div>
+
   </div>
 </body>
 </html>
